@@ -1,0 +1,680 @@
+{
+    "ArchitectQuiz": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "Id": {
+                        "N": "0"
+                    },
+                    "Question": {
+                        "S": "In the Amazon Web Services shared responsibility model, which of the following is a responsibility of Amazon?"
+                    },
+                    "option1": {
+                        "S": "Firewall configuration"
+                    },
+                    "option2": {
+                        "S": "Identity and Access Management"
+                    },
+                    "option3": {
+                        "S": "Physical Security"
+                    },
+                    "option4": {
+                        "S": "Server Side Encryption"
+                    },
+                    "answer": {
+                        "N": "3"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Id": {
+                        "N": "1"
+                    },
+                    "Question": {
+                        "S": "If you have data storage needs where you need to keep your costs low for data that is access infrequently, what service would you choose?"
+                    },
+                    "option1": {
+                        "S": "Glacier"
+                    },
+                    "option2": {
+                        "S": "S 3"
+                    },
+                    "option3": {
+                        "S": "Elastic Block Storage"
+                    },
+                    "option4": {
+                        "S": "Elastic File System"
+                    },
+                    "answer": {
+                        "N": "1"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Id": {
+                        "N": "2"
+                    },
+                    "Question": {
+                        "S": "If your V P C has public and private subnets, where should you launch your database server?"
+                    },
+                    "option1": {
+                        "S": "public subnet"
+                    },
+                    "option2": {
+                        "S": "private subnet"
+                    },
+                    "option3": {
+                        "S": "Neither, create a database only subnet"
+                    },
+                    "option4": {
+                        "S": "Launch it in its own V P C"
+                    },
+                    "answer": {
+                        "N": "2"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Id": {
+                        "N": "3"
+                    },
+                    "Question": {
+                        "S": "With the Amazon shared responsibility model, which of the following is not a responsibility of the customer?"
+                    },
+                    "option1": {
+                        "S": "security of customer data"
+                    },
+                    "option2": {
+                        "S": "Operating system, network, and firewall configuration"
+                    },
+                    "option3": {
+                        "S": "Server side encryption"
+                    },
+                    "option4": {
+                        "S": "Secure destruction of hard drives"
+                    },
+                    "answer": {
+                        "N": "4"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Id": {
+                        "N": "4"
+                    },
+                    "Question": {
+                        "S": "In order to perform penetration testing against your services in the A W S Cloud, what what you do?"
+                    },
+                    "option1": {
+                        "S": "Penetration testing is not allowed at all.  Ever."
+                    },
+                    "option2": {
+                        "S": "Obtain approval for penetration testing from A W S ahead of time"
+                    },
+                    "option3": {
+                        "S": "Perform your penetration testing, but you must inform A W S within 2 hours of starting it"
+                    },
+                    "option4": {
+                        "S": "Perform your penetration testing, but you must inform A W S within 12 hours of completion"
+                    },
+                    "answer": {
+                        "N": "2"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Id": {
+                        "N": "5"
+                    },
+                    "Question": {
+                        "S": "You configured an elastic load balancer to perform health checks against two instances running web servers.  What happens if one of those instances fails its health check?"
+                    },
+                    "option1": {
+                        "S": "The instance is replaced immediate by the elastic load balancer"
+                    },
+                    "option2": {
+                        "S": "The instance is terminated"
+                    },
+                    "option3": {
+                        "S": "The instance is quarantined"
+                    },
+                    "option4": {
+                        "S": "The load balancer will no longer send traffic to the unhealthy instance"
+                    },
+                    "answer": {
+                        "N": "4"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Id": {
+                        "N": "6"
+                    },
+                    "Question": {
+                        "S": "You want to distribute confidential content using CloudFront.  How can you serve content stored in S3, but not publicly accessibly by S3?"
+                    },
+                    "option1": {
+                        "S": "Create an Origin Access Identity or O A I for CloudFront and grant access to the objects in your S3 bucket to that O A I"
+                    },
+                    "option2": {
+                        "S": "Add the CloudFront account security group amazon-cf/amazon-cf-sg to the appropriate S3 bucket policy"
+                    },
+                    "option3": {
+                        "S": "Create an Identity and Access Management I A M User for CloudFront and grant access to the objects in your S3 bucket to that I A M User"
+                    },
+                    "option4": {
+                        "S": "Create a S3 bucket policy that lists the CloudFront distribution ID as the Principal and the target bucket as the Amazon Resource Name"
+                    },
+                    "answer": {
+                        "N": "1"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Id": {
+                        "N": "7"
+                    },
+                    "Question": {
+                        "S": "In the basic monitoring package for E C 2, Amazon CloudWatch provides which of the following metrics?"
+                    },
+                    "option1": {
+                        "S": "web server visible metrics such as number failed transaction requests"
+                    },
+                    "option2": {
+                        "S": "operating system visible metrics such as memory utilization"
+                    },
+                    "option3": {
+                        "S": "operating system visible metrics such as memory utilization"
+                    },
+                    "option4": {
+                        "S": "hypervisor visible metrics such as C P U utilization"
+                    },
+                    "answer": {
+                        "N": "4"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Id": {
+                        "N": "8"
+                    },
+                    "Question": {
+                        "S": "What service would you use to create an A W S user and establish policies for rotating passwords?"
+                    },
+                    "option1": {
+                        "S": "Trusted Advisor"
+                    },
+                    "option2": {
+                        "S": "Identity Access Management"
+                    },
+                    "option3": {
+                        "S": "Directory Service"
+                    },
+                    "option4": {
+                        "S": "Inspector"
+                    },
+                    "answer": {
+                        "N": "2"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Id": {
+                        "N": "9"
+                    },
+                    "Question": {
+                        "S": "Which is an operational process performed by AWS for data security?"
+                    },
+                    "option1": {
+                        "S": "A E S 256 encryption of data stored on any shared storage device"
+                    },
+                    "option2": {
+                        "S": "Decommissioning of storage devices using industry-standard practices"
+                    },
+                    "option3": {
+                        "S": "Decommissioning of storage devices using industry-standard practices"
+                    },
+                    "option4": {
+                        "S": "Replication of data across multiple A W S Regions"
+                    },
+                    "answer": {
+                        "N": "2"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Id": {
+                        "N": "10"
+                    },
+                    "Question": {
+                        "S": "To protect S3 data from both accidental deletion and accidental overwriting, What should you do?"
+                    },
+                    "option1": {
+                        "S": "enable S3 versioning on the bucket"
+                    },
+                    "option2": {
+                        "S": "enable S3 Reduced Redundancy Storage"
+                    },
+                    "option3": {
+                        "S": "disable S3 delete using an I A M bucket policy"
+                    },
+                    "option4": {
+                        "S": "enable Multi-Factor Authentication protected access"
+                    },
+                    "answer": {
+                        "N": "1"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Id": {
+                        "N": "11"
+                    },
+                    "Question": {
+                        "S": "Which of the following A W S not a deployment service?"
+                    },
+                    "option1": {
+                        "S": "opsworks"
+                    },
+                    "option2": {
+                        "S": "Glacier"
+                    },
+                    "option3": {
+                        "S": "Elastic Beanstalk"
+                    },
+                    "option4": {
+                        "S": "cloudformation"
+                    },
+                    "answer": {
+                        "N": "2"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Id": {
+                        "N": "12"
+                    },
+                    "Question": {
+                        "S": "Which of the following is not a flavor of database offered via Amazon Relational Database Service?"
+                    },
+                    "option1": {
+                        "S": "DynamoDB"
+                    },
+                    "option2": {
+                        "S": "PostGres Sequel"
+                    },
+                    "option3": {
+                        "S": "Oracle"
+                    },
+                    "option4": {
+                        "S": "Sequel server"
+                    },
+                    "answer": {
+                        "N": "1"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Id": {
+                        "N": "13"
+                    },
+                    "Question": {
+                        "S": "What service can handle your non-relational database needs?"
+                    },
+                    "option1": {
+                        "S": "Aurora"
+                    },
+                    "option2": {
+                        "S": "Kinesis"
+                    },
+                    "option3": {
+                        "S": "Relational Database Service"
+                    },
+                    "option4": {
+                        "S": "Dynamo D B"
+                    },
+                    "answer": {
+                        "N": "4"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Id": {
+                        "N": "14"
+                    },
+                    "Question": {
+                        "S": "You want to create an S3 bucket named performance tests in the North Virgia region, but get an error that the bucket name is already taken.  What should you do?"
+                    },
+                    "option1": {
+                        "S": "Just change your region and try again"
+                    },
+                    "option2": {
+                        "S": "Bucket names must be globally unique.  If is taken, it is gone.  You need to create a new name."
+                    },
+                    "option3": {
+                        "S": "Open a support ticket.  Bucket name collisions can only be handled in this way"
+                    },
+                    "option4": {
+                        "S": "Reference your bucket by Amazon resource name instead of bucket name."
+                    },
+                    "answer": {
+                        "N": "2"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Id": {
+                        "N": "15"
+                    },
+                    "Question": {
+                        "S": "You need to monitor your EC2 instances for things like C P U utilization and memory usage.  Which service can help you?"
+                    },
+                    "option1": {
+                        "S": "Cloud trail"
+                    },
+                    "option2": {
+                        "S": "Cloud monitor"
+                    },
+                    "option3": {
+                        "S": "Cloud watch"
+                    },
+                    "option4": {
+                        "S": "Cloud watcher"
+                    },
+                    "answer": {
+                        "N": "3"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Id": {
+                        "N": "16"
+                    },
+                    "Question": {
+                        "S": "You need to change your R D S instance from single availability zone to multi availability zone.  How can you do this?"
+                    },
+                    "option1": {
+                        "S": "This is not possible"
+                    },
+                    "option2": {
+                        "S": "Use the modify option on your R D S instance to make the change from single to multi availability zone"
+                    },
+                    "option3": {
+                        "S": "Open a help desk ticket.  This is the only way to make such a change to your R D S instance"
+                    },
+                    "option4": {
+                        "S": "Amazon Relational Database Service does not have a multiple availability zone option"
+                    },
+                    "answer": {
+                        "N": "2"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Id": {
+                        "N": "17"
+                    },
+                    "Question": {
+                        "S": "In the R D S, what is not an advantage of using a multi availability zone deployment?"
+                    },
+                    "option1": {
+                        "S": "Much faster performance as you have both a primary and standby instance capable of serving user requests"
+                    },
+                    "option2": {
+                        "S": "Increased availability for operating system patching as the patch can be applied to the standby instance first, and the only time needed is to allow for the automatic failover to occur"
+                    },
+                    "option3": {
+                        "S": "Increased availability for taking backups as backups are taken from the standby"
+                    },
+                    "option4": {
+                        "S": "Automatic failovers. R D S monitors the health of your databases and will automatically failover from primary to standby"
+                    },
+                    "answer": {
+                        "N": "1"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Id": {
+                        "N": "18"
+                    },
+                    "Question": {
+                        "S": "Which of the following is not a benefit of the multiple A W S regions world wide?"
+                    },
+                    "option1": {
+                        "S": "using a different region may allow you to lower your costs"
+                    },
+                    "option2": {
+                        "S": "Geographically disperse regions may help in your compliancy needs addressing what data can flow across borders"
+                    },
+                    "option3": {
+                        "S": "Faster latency world wide as resources can be placed closer to clients"
+                    },
+                    "option4": {
+                        "S": "Automatic localization.  You do no need to localize your code as the servers will already be local to the region you are deploying in"
+                    },
+                    "answer": {
+                        "N": "4"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Id": {
+                        "N": "19"
+                    },
+                    "Question": {
+                        "S": "You are a solutions architect working for a retail company who expects a large amount of traffic to hit its servers immediately after a superbowl commercial airs.  You want to be sure that your elastic load balancer can handle all of the traffic that it will see spike in such a short amount of time.  What can you do?"
+                    },
+                    "option1": {
+                        "S": "Sit back and relax.  Amazon Elastic Load Balancer is elastic for a reason and can handle any spike in traffic"
+                    },
+                    "option2": {
+                        "S": "load balance the load balancer.  Create multiple load balancers to handle your traffic needs and place them behind a master elastic load balancer"
+                    },
+                    "option3": {
+                        "S": "You can contact support and ask them to prewarm your elastic load balancer so it is ready when your anticipated spike in traffic hits"
+                    },
+                    "option4": {
+                        "S": "The best you can do is use the Elastic Load Balancer to throttle the traffic and configure it to serve a friendly error page when capacity is hit."
+                    },
+                    "answer": {
+                        "N": "3"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Id": {
+                        "N": "20"
+                    },
+                    "Question": {
+                        "S": "What does the 53 in Route 53 stand for?"
+                    },
+                    "option1": {
+                        "S": "53 is the port used for D N S resolution"
+                    },
+                    "option2": {
+                        "S": "Route 53 is the 53rd service released by A W S"
+                    },
+                    "option3": {
+                        "S": "Route 53 is the name of the highway where A W S developers conceptualized the idea"
+                    },
+                    "option4": {
+                        "S": "53 represents the limits of resources in a V P C that can use the service"
+                    },
+                    "answer": {
+                        "N": "1"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Id": {
+                        "N": "21"
+                    },
+                    "Question": {
+                        "S": "What service is Amazons no sequel service?"
+                    },
+                    "option1": {
+                        "S": "Relational Database service"
+                    },
+                    "option2": {
+                        "S": "dynamo d b"
+                    },
+                    "option3": {
+                        "S": "Kinesis"
+                    },
+                    "option4": {
+                        "S": "redshift"
+                    },
+                    "answer": {
+                        "N": "2"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Id": {
+                        "N": "22"
+                    },
+                    "Question": {
+                        "S": "You have just made an a p i call to a w s.  What H t t p response code indicated successful completion of your request?"
+                    },
+                    "option1": {
+                        "S": "500"
+                    },
+                    "option2": {
+                        "S": "404"
+                    },
+                    "option3": {
+                        "S": "302"
+                    },
+                    "option4": {
+                        "S": "200"
+                    },
+                    "answer": {
+                        "N": "4"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Id": {
+                        "N": "23"
+                    },
+                    "Question": {
+                        "S": "What is glacier designed to accomplish?"
+                    },
+                    "option1": {
+                        "S": "data archives"
+                    },
+                    "option2": {
+                        "S": "content delivery"
+                    },
+                    "option3": {
+                        "S": "secure storage"
+                    },
+                    "option4": {
+                        "S": "caching"
+                    },
+                    "answer": {
+                        "N": "1"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Id": {
+                        "N": "24"
+                    },
+                    "Question": {
+                        "S": "An http request is issued to AWS to access data in a CloudFront.  What happens when the request is received by an edge location that does not currently have the resource?"
+                    },
+                    "option1": {
+                        "S": "an HTTP 404 is returned"
+                    },
+                    "option2": {
+                        "S": "The request is cached at the edge location until the object is synchronized to it"
+                    },
+                    "option3": {
+                        "S": "A request is made to the origin to be served out, but the object is also then cached at the edge location"
+                    },
+                    "option4": {
+                        "S": "the request is redirected to the closest edge location containing that object"
+                    },
+                    "answer": {
+                        "N": "3"
+                    }
+                }
+            }
+        }
+
+    ]
+}
